@@ -10,9 +10,10 @@ public class VehicleChassis implements Chassis {  //Instructions say declare pub
     }
 
     //Overloaded constructor
-    public VehicleChassis(String chassisName) {
-        this.chassisName = chassisName;
-    }
+    public VehicleChassis(String chassisName) { this.chassisName = chassisName; }
+
+    //Fix end bracket
+    public Chassis getChassisType(){this.chassisName = chassis; return getChassisType(); }
 
     //Implementing interface methods
     public void setChassisType(String VehicleChassis) {
@@ -24,8 +25,12 @@ public class VehicleChassis implements Chassis {  //Instructions say declare pub
         return "Chassis Name  : " + this.chassisName;
     }
 
+    }
 
-}
+
+
+
+
 
 
 

@@ -12,6 +12,5 @@ public interface Chassis {
     public Chassis getChassisType();
 
     public void setChassisType(String vehicleChassis);
-
 }
 
