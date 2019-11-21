@@ -35,7 +35,7 @@ public final class Car extends Vehicle {
 
 
         //Initialize vehicle
-        super(vehicleManufacturer,vehicleManufactureDate,
+        super(vehicleManufacturer, vehicleManufactureDate,
                 vehicleMake, vehicleModel, vehicleType, vehicleFrame, vehicleEngine);
 
         this.feature = feature;
