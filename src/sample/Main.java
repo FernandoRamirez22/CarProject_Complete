@@ -8,22 +8,10 @@ import javafx.stage.Stage;
 
 import java.util.Date;
 
-public class Main extends Application {
-
-    @Override
-    public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.setTitle("Hello World");
-        primaryStage.setScene(new Scene(root, 300, 275));
-        primaryStage.show();
-    }
-
+public class Main {
 
     public static void main(String[] args) {
-        launch(args);
-    }
 
-    {
         // Test default constructor and print instance attributes
         Car c1 = new Car();
         System.out.println("----------------------------------------------------------------------------------");
@@ -36,7 +24,7 @@ public class Main extends Application {
         Feature[] f = {new InteriorFeature("AM/FM Radio")
                 , new ExteriorFeature("Wood Panels")
                 , new InteriorFeature("Air Conditioning")
-                , new ExteriorFeature("Moonroof")};
+                , new ExteriorFeature("MoonRoof")};
 
         //Create an overloaded Car instance
         Car c2 = new Car("Honda", new Date(1325599999999L)
@@ -57,7 +45,7 @@ public class Main extends Application {
 
         // Test default constructor and print instance attributes
         System.out.println("----------------------------------------------------------------------------------");
-        Vehicle v = (Vehicle) new Car("Honda", new Date(1325599999999L),
+        Vehicle v = new Car("Honda", new Date(1325599999999L),
                 "Honda",
                 "Prelude",
                 "Coupe",
