@@ -1,5 +1,8 @@
 package sample;
 
+/**
+ * @author Fernando Ramirez
+ * */
 public interface Feature {
     //Declare method definitions
 

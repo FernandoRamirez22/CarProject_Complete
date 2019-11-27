@@ -1,5 +1,8 @@
 package sample;
 
+/**
+ * @author Fernando Ramirez
+ * */
 public class ExteriorFeature implements Feature {
 
     //Declare local variables

@@ -2,6 +2,9 @@ package sample;
 
 import java.util.Date;
 
+/**
+* @author Fernando Ramirez
+* */
 public class Vehicle implements Engine, Chassis {
 
     Date vehicleManufacturedDate;
@@ -13,6 +16,9 @@ public class Vehicle implements Engine, Chassis {
     String driveTrain;
     Engine vehicleEngine;
 
+    /**
+     * This method is initializing "Vehicle"
+     * */
     public Vehicle() {
         //Initialize Vehicle
         this.vehicleManufacturedDate = new Date();

@@ -2,6 +2,9 @@ package sample;
 
 import java.util.Date;
 
+/**
+ * @author Fernando Ramirez
+ * */
 public class ManufacturedEngine implements Engine {
 
     private String engineManufacturer;
@@ -18,7 +21,12 @@ public class ManufacturedEngine implements Engine {
 
     private String driveTrain;
 
-    //Constructor for objects of class Engine
+    /**
+     * This method is initializing variables for the constructor for objects of class Engine
+     *
+     * @param null
+     * @return null
+     *  */
 
     public ManufacturedEngine() {
         //initialize vehicle
@@ -31,8 +39,16 @@ public class ManufacturedEngine implements Engine {
         this.driveTrain = "2wd: Two-Wheel Drive";
     }
 
-//Override constructor for objects of class Engine
-
+    /**
+     * This method Overrides constructor for objects of class Engine
+     * @param String engineManufacturer,
+     *Date engineManufacturerDate,
+     *String engineMake,
+     *String engineModel,
+     *String driveTrain, int engineCylinders, String engineType
+     *
+     * @return null
+     * */
     public ManufacturedEngine(String engineManufacturer, Date engineManufacturerDate, String engineMake, String engineModel,
                               String driveTrain, int engineCylinders, String engineType) {
 

@@ -1,5 +1,8 @@
 package sample;
 
+/**
+ * @author Fernando Ramirez
+ * */
 public class InteriorFeature implements Feature {
 
     //Declare local Variables

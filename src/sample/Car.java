@@ -2,6 +2,10 @@ package sample;
 
 import java.util.Date;
 
+/**
+ * @author Fernando Ramirez
+ *
+ */
 public final class Car extends Vehicle {
 
     //Declare local variables
@@ -10,6 +14,12 @@ public final class Car extends Vehicle {
 
     //Constructor for objects of class Vehicle
 
+    /**
+     * This function will initiate SQL to manipulate and interact with database
+     *
+     * @param null
+     * @retrun null
+     */
     public Car() {
         //initialize vehicle
         super();
@@ -22,7 +32,12 @@ public final class Car extends Vehicle {
     }
 
     //Constructor for objects of class Vehicle
-
+    /**
+     * This method is initiating the variables that will makeup a "Car"
+     *
+     * @param String vehicleManufacturer, Date vehicleManufactureDate, String vehicle make,String vehicleModel,
+     *String vehicleType,Chassis vehicleFrame,Engine vehicleEngine,Feature[] feature,
+     */
     public Car(String vehicleManufacturer,
                Date vehicleManufactureDate,
                String vehicleMake,

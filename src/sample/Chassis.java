@@ -2,6 +2,9 @@ package sample;
 
 import java.util.Date;
 
+/**
+ * @author Fernando Ramirez
+* */
 public interface Chassis {
 
     //Declare constants
